@@ -71,7 +71,8 @@ Total reclaimed space: 16.43 MB
 ### Filtering
 
 The filtering flag (`--filter`) format is of "key=value". If there is more
-than one filter, then pass multiple flags (e.g., `--filter "foo=bar" --filter "bif=baz"`)
+than one filter, then pass multiple flags (e.g., `--filter "foo=bar" --filter "bif=baz"`).
+Image must pass all filters to be pruned.
 
 The currently supported filters are:
 
